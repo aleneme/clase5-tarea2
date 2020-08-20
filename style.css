@@ -1,0 +1,109 @@
+body {
+  font-family: Poppins, Arial, sans-serif;
+  background: #0D1440;
+  color: whitesmoke;
+}
+
+main {
+  display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.saludo-inicial {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+h1 {
+  font-size: 5rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0;
+}
+
+h2 {
+  font-size: 2rem;
+  margin: 0;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 400px
+}
+
+label {
+  font-size: 1rem;
+  font-weight: bold;
+  margin: 1rem;
+  text-decoration: underline;
+ 
+}
+
+input {
+  padding: 0.4rem;
+ border-radius: 6px;
+ width: 20rem;
+ text-align: center;
+ font-size: 1rem;
+ outline: none;
+ color:#1455D9
+}
+
+button {
+  margin-top: 1rem;
+  padding: 0.5rem;
+  font-size: 1rem;
+  width: 7rem;
+  background:#BF1736;
+  outline: none;
+  border: none;
+  color: white;
+  box-shadow: 0 0.3rem rgba(121, 121, 121, 0.65);
+  border-radius: 10px
+}
+
+button:active {
+  transform: translate(0, 0.3rem);
+  box-shadow: 0 0.1rem rgba(121, 121, 121, 0.65);
+}
+
+button:hover {
+  cursor: pointer;
+  color: #BF1736;
+  background: lightgray;
+}
+
+#tus-datos {
+  color: white;
+
+}
+
+#tus-datos::placeholder {
+  color: white;
+}
+
+.datos-usuarios-after {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 1rem;
+
+}
+
+.datos-usuarios-after label {
+  font-size: 2rem;
+  font-weight: bolder;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+#tus-datos {
+  font-size: 1.5rem;
+  width: 40rem;
+}

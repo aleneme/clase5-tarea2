@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <title>Nombre Usuario</title>
+  </head>
+
+  <body>
+    <main>
+      <section class="saludo-inicial">
+        <h1>¡Bienvenido!</h1>
+        <h2>Ingresá tus datos.</h2>
+      </section>
+      <form action="/tarea-2/index.html">
+        <label> Nombre </label>
+        <input
+          type="text"
+          name="nombre"
+          id="nombre"
+          placeholder="Ingresá tu nombre."
+        />
+        <label> Segundo Nombre </label>
+        <input
+          type="text"
+          name="segundo-nombre"
+          id="segundo-nombre"
+          placeholder="Ingresá tu segundo nombre."
+        />
+        <label> Apellido </label>
+        <input
+          type="text"
+          name="apellido"
+          id="apellido"
+          placeholder="Ingresá tu apellido."
+        />
+        <label> Edad </label>
+        <input
+          type="text"
+          name="edad"
+          id="edad"
+          placeholder="Ingresá tu edad."
+        />
+        <button>Enviar</button>
+      </form>
+      <section class="datos-usuarios-after">
+        <label> Tus datos </label>
+        <input
+          type="text"
+          name="tus-datos"
+          id="tus-datos"
+          disabled
+          placeholder="Aquí apareceran tus datos"
+        />
+      </section>
+    </main>
+    <script src="tarea-2.js"></script>
+  </body>
+</html>
